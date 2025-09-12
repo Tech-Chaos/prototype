@@ -15,11 +15,11 @@ const PlacePage = () => {
     const { id } = useParams();
     const place = places.find(p => p.id === id);
     return (
-        <div>
+        <div className='bg-[#f1ead8] w-screen m-0 p-0' >
             <Navbar />
+            <HeroSection hero={place.hero} />
             <AboutSection about={place.about} />
-            <HeroSection place={place.hero} />
-            <DiscoverySection place={place.discover} />
+            <DiscoverySection discover={place.discover} />
             <SymphonyOfGreen place={place.symphony} />
             <MustVisit place={place.mustVisit} />
             <JourneySection place={place.journey} />
