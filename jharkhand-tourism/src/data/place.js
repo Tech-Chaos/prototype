@@ -69,7 +69,7 @@ const places = [
     hero: {
       title: "Deoghar",
       subtitle: "The abode of the Gods and spiritual serenity…",
-      image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      image: "/assets/Deoghar.webp",
       descriptionbold: "Deoghar, literally meaning 'Dham of the Devas', is one of the most revered pilgrimage sites in India. Home to the famous Baidyanath Jyotirlinga Temple, this sacred city attracts millions of devotees annually.",
       description: "Nestled in the Santhal Pargana division of Jharkhand, Deoghar is steeped in mythology and spirituality. The city comes alive during Shravan month when devotees undertake the arduous Kanwar Yatra, carrying holy water from the Ganges to offer at the temple."
     },
@@ -144,7 +144,7 @@ const places = [
     hero: {
       title: "Hirni Falls",
       subtitle: "Nature's hidden cascade in the heart of Jharkhand…",
-      image: "https://images.unsplash.com/photo-1558618666-fbd31c2cd2d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      image: "/assets/HirniFalls.jpg",
       descriptionbold: "Hirni Falls, a hidden gem nestled in the dense forests of Jharkhand, offers an untouched natural paradise where pristine waters cascade down rocky cliffs into crystal-clear pools below.",
       description: "Located approximately 70 kilometers from Ranchi, Hirni Falls is one of Jharkhand's best-kept secrets. The waterfall plunges from a height of about 120 feet, creating a mesmerizing spectacle that changes with the seasons. During monsoons, it becomes a thundering cascade, while in winter, it transforms into a gentle, serene flow."
     },
@@ -219,7 +219,7 @@ const places = [
     hero: {
       title: "Jagannath Mandir",
       subtitle: "Divine architecture and spiritual magnificence…",
-      image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      image: "/assets/jagannathTemple.jpg ",
       descriptionbold: "The Jagannath Mandir of Ranchi stands as a magnificent replica of the famous Puri Jagannath Temple, representing the spiritual heart of Jharkhand with its stunning architecture and divine atmosphere.",
       description: "Built with exquisite craftsmanship, this temple complex spans several acres and houses the divine trinity - Lord Jagannath, Balabhadra, and Subhadra. The temple's architecture mirrors the classical Kalinga style, featuring intricate stone carvings and towering spires that reach towards the heavens."
     },
@@ -294,7 +294,7 @@ const places = [
     hero: {
       title: "Ranchi Hills",
       subtitle: "Rolling hills and scenic vistas of the capital…",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      image: "/assets/ranchiHills.jpg",
       descriptionbold: "The undulating hills surrounding Ranchi create a picturesque landscape that has earned the city its nickname as the 'City of Hills'. These ancient formations offer breathtaking panoramic views and serene retreat spots.",
       description: "Rising to heights of over 700 meters above sea level, the Ranchi hills provide a natural boundary to the city while offering numerous vantage points for spectacular sunrises and sunsets. The hills are covered with dense forests and dotted with small villages that maintain traditional lifestyles."
     },
