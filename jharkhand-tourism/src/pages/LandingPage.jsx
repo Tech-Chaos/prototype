@@ -6,12 +6,12 @@ const JharkhandLandingPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const carouselImages = [
-    { id: 1, src: "https://picsum.photos/seed/carousel1/300/400", alt: "Johna Falls", title: "Johna Falls", description: "Serene waterfall escape", link: "/place/johnafalls" },
-    { id: 2, src: "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80", alt: "Deoghar", title: "Deoghar", description: "Sacred pilgrimage site", link: "/place/deoghar" },
-    { id: 3, src: "https://images.unsplash.com/photo-1558618666-fbd31c2cd2d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80", alt: "Hirni Falls", title: "Hirni Falls", description: "Hidden forest cascade", link: "/place/hirnifalls" },
-    { id: 4, src: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80", alt: "Jagannath Mandir", title: "Jagannath Mandir", description: "Divine architecture", link: "/place/jagannathmandi" },
-    { id: 5, src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80", alt: "Ranchi Hills", title: "Ranchi Hills", description: "Scenic hill views", link: "/place/ranchihills" },
-    { id: 6, src: "https://picsum.photos/seed/carousel6/300/400", alt: "Wildlife Sanctuary", title: "Wildlife Sanctuary", description: "Diverse flora and fauna", link: "/place/wildlife" },
+    { id: 1, src: "/assets/Jonha_falls.jpg", alt: "Johna Falls", title: "Johna Falls", description: "Serene waterfall escape", link: "/place/johnafalls" },
+    { id: 2, src: "/assets/Deoghar.webp", alt: "Deoghar", title: "Deoghar", description: "Sacred pilgrimage site", link: "/place/deoghar" },
+    { id: 3, src: "/assets/HirniFalls.jpg", alt: "Hirni Falls", title: "Hirni Falls", description: "Hidden forest cascade", link: "/place/hirnifalls" },
+    { id: 4, src: "/assets/jagannathTemple.jpg", alt: "Jagannath Mandir", title: "Jagannath Mandir", description: "Divine architecture", link: "/place/jagannathmandi" },
+    { id: 5, src: "/assets/ranchiHills.jpg", alt: "Ranchi Hills", title: "Ranchi Hills", description: "Scenic hill views", link: "/place/ranchihills" },
+    { id: 6, src: "/assets/wildlifeSanctuary.webp", alt: "Wildlife Sanctuary", title: "Wildlife Sanctuary", description: "Diverse flora and fauna", link: "/place/wildlife" },
   ];
 
   const rotateCarousel = (direction) => {
