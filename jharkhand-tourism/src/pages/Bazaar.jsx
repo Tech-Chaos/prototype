@@ -83,13 +83,13 @@ const Bazaar = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-[90%] max-w-[1100px]">
+      <header className="fixed top-2 sm:top-4 left-1/2 transform -translate-x-1/2 z-50 w-[95%] sm:w-[90%] max-w-[1100px]">
         <nav 
-          className="relative bg-gradient-to-b from-[#C6AE95] to-[#A78669] rounded-full h-14 px-6 shadow-[0_12px_28px_rgba(0,0,0,0.16)]"
+          className="relative bg-gradient-to-b from-[#C6AE95] to-[#A78669] rounded-full h-12 sm:h-14 px-3 sm:px-6 shadow-[0_12px_28px_rgba(0,0,0,0.16)]"
           role="navigation"
           aria-label="Main navigation"
         >
-          <div className="flex items-center justify-center h-full space-x-8">
+          <div className="flex items-center justify-center h-full space-x-2 sm:space-x-4 lg:space-x-8">
             {navItems.map((item, index) => (
               <div 
                 key={item.label}
@@ -99,13 +99,13 @@ const Bazaar = () => {
               >
                 {/* Hover chip */}
                 {hoveredNav === index && (
-                  <div className="absolute inset-0 bg-white/90 rounded-full w-[90px] h-[42px] -top-1 -left-3 shadow-md transition-all duration-200 ease-out" />
+                  <div className="absolute inset-0 bg-white/90 rounded-full w-[70px] sm:w-[90px] h-[36px] sm:h-[42px] -top-1 -left-2 sm:-left-3 shadow-md transition-all duration-200 ease-out" />
                 )}
                 
                 {/* Navigation Link */}
                 <Link
                   to={item.path}
-                  className={`relative z-10 text-lg font-semibold transition-colors duration-200 ${
+                  className={`relative z-10 text-sm sm:text-base lg:text-lg font-semibold transition-colors duration-200 ${
                     hoveredNav === index 
                       ? 'text-[#8C6E56]' 
                       : 'text-white/95'
@@ -134,7 +134,7 @@ const Bazaar = () => {
       >
         {/* Layer 1: Watermark text behind image */}
         <div className="absolute inset-0 z-0 flex items-center justify-center">
-          <h1 className="text-[12rem] md:text-[16rem] font-bold text-black/10 tracking-widest select-none pointer-events-none">
+          <h1 className="text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[12rem] xl:text-[16rem] font-bold text-black/10 tracking-widest select-none pointer-events-none">
             JHARKHAND
           </h1>
         </div>
